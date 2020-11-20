@@ -7,28 +7,34 @@ You will pair program with a partner to complete this assignemnt. One partner, t
 
 1. Given an array `myArray`, determine if it is empty.
 2. Given an array `myArray` and a string `value`, overwrite all the values in the array with the string.
-3. Given two arrays `alpha` and `beta`, determine if the two arrays are equal.
+3. Given an array `myArray`, display the elements of `myArray` comma delimited.
+
+&emsp; &emsp; Ex. 
+
+&emsp; &emsp; Input: `["Courtney", "Kaleb", "Froilan", "Tariq"]`
+
+&emsp; &emsp; Output: `"Courtney, Kaleb, Froilan, Tariq"`
 
 
 ## Part Two
 
-1. Given an array `myArray` and a string `value`, add the string to the array.
-2. Given an array `myArray`, a string `value`, and a number `n`, fill the array with n values.
+1. Given an array `myArray`, remove the second to last element in `myArray`.
+2. Given two arrays `alpha` and `beta`, copy all the values of `alpha` into `beta`.
+3. Given an array `myArray`, a number `value`, and a number `index`, insert the `value` into `myArray` at the `index`.
+
 
 &emsp; &emsp; Ex. 
 
-&emsp; &emsp; Input: "Kaleb", 3
+&emsp; &emsp; Input: `["Jetta", "GTI", "Beetle"]`, `"Passat"`, `1`
 
-&emsp; &emsp; Output: ["Kaleb", "Kaleb", "Kaleb"];
-
-3. Given an array `myArray`, create a dublicate array containing all the values in `myArray`.
+&emsp; &emsp; Output: `["Jetta", "Passat", "GTI", "Beetle"]`
 
 ## Part Three
 
-1. Given an array `myArray`, a number `start`, and a number `stop`, create a new array containing all the values in `myArray` between `start` and `stop`.
+1. Given two arrays `alpha` and `beta`, add all the values of `beta` into `alpha`.
 
-2. Given an array `myArray`, reverse the ordering of its elements;
+2. Given an array `myArray`, a number `a`, and a number `b`, switch the elements in `myArray` at positions `a` and `b`.
 
-3. Given an array `myArray` and a number `value`, find the index of the first occurance of `value` in `myArray`.
+3. Given an array `myArray` and a number `value`, determine if `value` is in `myArray`.
 
 ***Happy Hacking!***
