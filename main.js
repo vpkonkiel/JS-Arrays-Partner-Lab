@@ -14,8 +14,8 @@ console.log(myArray);
 //Question 2 
 let alpha = [58, 96, 37, 68, 53];
 let beta = [];
-for ( let value of alpha) {
-    beta = alpha.push(value)
+for (let value of alpha) {
+    beta.push(value)
 }
 
 console.log(beta);
