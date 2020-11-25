@@ -12,12 +12,13 @@ removeSecondToLast(myArray);
 console.log(myArray);
 
 //Question 2 
-let alpha = [58, 96, 37, 68, 53];
-let beta = [];
-for (let value of alpha) {
-    beta.push(value)
+function copyingAnArray(a1,a2){
+    // let alpha = [58, 96, 37, 68, 53];
+    // let beta = [];
+    for (let value of a1){
+        a2.push(value)
+    }
 }
-
 console.log(beta);
 
 // var first =  [1, 2, 3];
@@ -34,3 +35,15 @@ console.log(beta);
 */
 
 //Given two arrays alpha and beta, copy all the values of alpha into beta.
+
+// Given an array `myArray`, a number `value`, and a number `index`,
+// insert the `value` into `myArray` at the `index`.
+
+function insertValueAtIndex (i,value, array){
+    // let value = 9;
+    // let i = 0 
+    array.splice(i,0,value);
+}
+insertValueAtIndex(0,9,myArray)
+console.log (myArray)
+
